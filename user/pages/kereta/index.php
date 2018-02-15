@@ -110,7 +110,7 @@ if ($cari!="") {
 				<td><?=$q['kota']?></td>
 				<td><?=$data["berangkat_pada"]?></td>
 				<td><?=$data['price']?></td>
-				<td><a href="index.php?page=rute/update&id=<?=$data['id']?>" class="btn btn-success">Buy</a></td>
+				<td><a href="index.php?user=kereta/reservation&id=<?=$data['id']?>&action='beli'" class="btn btn-success">Buy</a></td>
 				<td><a href="pages/rute/machine.php?action=del&id=<?=$data['id']?>" class="btn btn-danger">delete</a></td>
 			</tr>
 			<?php
@@ -128,5 +128,5 @@ if ($cari!="") {
 	</div>
 </div>
 <form method="post" action="index.php?user=kereta/reservation">
-	<input type="hidden" name="">
+	<input type="hidden" name="res_code" >
 </form>

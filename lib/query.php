@@ -77,6 +77,16 @@ class Query
 	{
 		return $data=filter_input_array($value,FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 	}
+	public function random($length=10)
+	{
+		$string='0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+		$rand_cod=strlen($string);
+		$rand_str='';
+		for ($i = 0; $i < $length; $i++) {
+        	$rand_str .= $string[rand(0, $rand_cod - 1)];
+    	}
+    	return $rand_str;
+	}
 }
 $base = new Query();
 include_once 'javaSc.php';

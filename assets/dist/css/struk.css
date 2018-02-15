@@ -1,0 +1,13 @@
+*{
+	margin: 0;
+}
+body{
+	padding: 0;
+}
+img.logo{
+	width: 815px;
+	margin-left: 188px;
+}
+.blue{
+	background-color: #3a82bf;
+}
