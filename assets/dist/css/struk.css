@@ -5,9 +5,18 @@ body{
 	padding: 0;
 }
 img.logo{
-	width: 815px;
-	margin-left: 188px;
+	width: 715px;
+	margin-left: 100px;
 }
 .blue{
 	background-color: #3a82bf;
+}
+.down-10{
+	padding-top: 30px;
+}
+.footer{
+	background-color: #c3c3c3;
+	width: 100%;
+	height: 30px;
+	border-bottom: 2px #5a5858 solid;
 }

@@ -29,9 +29,16 @@
 			</a>
 		</li>
 		<li class="">
-			<a href="index.php?page=kota/index">
+			<a href="index.php?page=pull/index">
 				<i class="fa fa-map-marker"></i>
 				Pull
+				<span class="sr-only">(curent)</span>
+			</a>
+		</li>
+		<li class="">
+			<a href="index.php?page=kota/index">
+				<i class="fa fa-map"></i>
+				Kota
 				<span class="sr-only">(curent)</span>
 			</a>
 		</li>

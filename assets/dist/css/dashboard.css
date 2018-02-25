@@ -128,3 +128,24 @@ body {
 .button-cari{
   margin-top: 20px;
 }
+.foter{
+  margin-top: 24px;
+}
+.panel-yellow{
+  border-color: #f0ad4e;
+}
+.panel-yellow > .panel-heading {
+    border-color: #f0ad4e;
+    color: white;
+    background-color: #f0ad4e;
+}
+.huge {
+    font-size: 40px;
+}
+.panel-yellow > a {
+    color: #f0ad4e;
+}
+.panel > a:hover{
+  color: #10314e;
+  text-decoration: none;
+}
